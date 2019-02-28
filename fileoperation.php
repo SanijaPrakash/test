@@ -14,9 +14,9 @@ fwrite($file1,$contents);
 // fwrite($file1,$contents);
 fclose($file1);
 
-// $file=fopen("sampletext.txt","r");
-// echo fread($file,filesize("sampletext.txt"));
-// fclose($file);
+$file=fopen("sampletext.txt","r");
+echo fread($file,filesize("sampletext.txt"));
+fclose($file);
 
 
 
